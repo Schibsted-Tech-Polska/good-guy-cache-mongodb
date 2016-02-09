@@ -23,13 +23,15 @@
     "lodash": "4.3.0"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
     "coveralls": "^2.11.4",
     "express": "^4.13.3",
     "istanbul": "^0.3.20",
     "jshint": "^2.8.0",
     "mocha": "^2.3.2",
     "sinon": "^1.16.1",
-    "supertest": "^1.1.0"
+    "supertest": "^1.1.0",
+    "tingodb": "^0.4.2"
   },
   "author": "Jakub Wasilewski <wasyl@wasyl.eu> (http://wasyl.eu)",
   "license": "ISC",
