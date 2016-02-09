@@ -1,0 +1,40 @@
+{
+  "name": "good-guy-cache-mongodb",
+  "version": "0.1.0",
+  "description": "A MongoDB-based cache implementation for good-guy-http.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.js",
+    "coverage": "./node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha -- --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schibsted-tech-polska/good-guy-cache-mongodb.git"
+  },
+  "keywords": [
+    "goodguy",
+    "cache",
+    "mongo",
+    "mongodb",
+    "good-guy-http"
+  ],
+  "dependencies": {
+    "bluebird": "2.10.0",
+    "lodash": "4.3.0"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.4",
+    "express": "^4.13.3",
+    "istanbul": "^0.3.20",
+    "jshint": "^2.8.0",
+    "mocha": "^2.3.2",
+    "sinon": "^1.16.1",
+    "supertest": "^1.1.0"
+  },
+  "author": "Jakub Wasilewski <wasyl@wasyl.eu> (http://wasyl.eu)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schibsted-tech-polska/good-guy-cache-mongodb/issues"
+  },
+  "homepage": "https://github.com/schibsted-tech-polska/good-guy-cache-mongodb#readme"
+}

@@ -1,0 +1,17 @@
+### Files
+
+*.log
+.env
+.DS_Store
+*.swp
+
+### IDE specific
+.idea
+*.iml
+
+### Npm files
+node_modules
+
+### Coverage
+coverage
+.coveralls.yml
